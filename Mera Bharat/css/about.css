@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    color: white;
+    border: 1px solid red;
+}
+.about{
+    color: white;
+    border: 1px solid rgb(255, 247, 0);
+}
+.content{
+    color: white;
+    border: 1px solid green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+.main{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(/img/main\ bg.jpg);;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+    
+}
+.bga{
+    border: 1px solid white;
+    height: 40vh;
+    width: 50vw;
+    background-image: url(/img/bag.png);
+    background-size:cover;
+    
+}
